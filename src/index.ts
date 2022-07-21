@@ -1,7 +1,7 @@
 const msn: string = "Hello, word!";
 
 const app = () => {
-    console.log(msn);
+  console.log(msn);
 };
 
 app();

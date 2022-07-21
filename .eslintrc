@@ -1,0 +1,12 @@
+{
+  "parserOptions": {
+    "ecmaVersion": "latest"
+  },
+  "extends": ["eslint:recommended"],
+  "rules": {
+    "no-console": "off"
+  },
+  "env": {
+    "browser": true
+  }
+}
