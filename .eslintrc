@@ -2,9 +2,9 @@
   "parserOptions": {
     "ecmaVersion": "latest"
   },
-  "extends": ["eslint:recommended"],
+  "extends": ["eslint:recommended", "eslint-configprettier"],
   "rules": {
-    "no-console": "off"
+    "semi": "off"
   },
   "env": {
     "browser": true
