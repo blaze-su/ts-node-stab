@@ -2,7 +2,7 @@
   "parserOptions": {
     "ecmaVersion": "latest"
   },
-  "extends": ["eslint:recommended", "eslint-configprettier"],
+  "extends": ["eslint:recommended", "eslint-config-prettier"],
   "rules": {
     "semi": "off"
   },
