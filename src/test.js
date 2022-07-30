@@ -1,4 +1,5 @@
-let a = "b"
 // eslint-disable-next-line no-undef
-
-console.log(a)
+require("dotenv").config()
+// eslint-disable-next-line no-undef
+const {port} = require("./config")
+console.log(`Your port is ${port}`)
